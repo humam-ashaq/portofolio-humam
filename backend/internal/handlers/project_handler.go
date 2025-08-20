@@ -3,8 +3,8 @@ package handlers
 import (
 	"context"
 	"log"
-	"backend/database"
-	"backend/models"
+	"backend/internal/database"
+	"backend/internal/models"
 
 	"github.com/gofiber/fiber/v2"
 )

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"backend/database"
-	"backend/handlers"
+	"backend/internal/database"
+	"backend/internal/handlers"
 	"log"
 	"os"
 
