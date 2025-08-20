@@ -1,10 +1,24 @@
-<script>import "../app.css";
-import favicon from '$lib/assets/favicon.svg';
+<script lang="ts">
+	import '../app.css';
 
-let { children } = $props();</script>
+	let { children } = $props();
+
+	import Header from '$lib/components/layout/Header.svelte';
+	import Footer from '$lib/components/layout/Footer.svelte';
+</script>
 
 <svelte:head>
-	<link rel="icon" href="{favicon}" />
+	<title>Humam's Portfolio</title>
+
+	<link rel="icon" type="image/x-icon" href="/ashaq.png" />
+
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
 </svelte:head>
 
-{@render children?.()}
+<Header />
+
+<main>
+	{@render children?.()}
+</main>
+
+<Footer />
