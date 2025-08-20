@@ -1,11 +1,18 @@
 import type { Config } from "tailwindcss";
+import typography from '@tailwindcss/typography';
 
 export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
 
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: '#14b8a6',
+        secondary: '#64748b',
+        dark: '#0f172a' 
+      }
+    }
   },
 
-  plugins: [require("@tailwindcss/typography")]
+  plugins: [typography]
 } as Config;
