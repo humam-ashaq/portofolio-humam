@@ -6,7 +6,7 @@
 	}
 </script>
 
-<header class="bg-white fixed shadow-xl top-0 left-0 w-full flex items-center z-10">
+<header class="bg-bg fixed shadow-xl top-0 left-0 w-full flex items-center z-10">
 	<div class="container text-2xl">
 		<div class="flex justify-between items-center relative">
 			<div class="px-4">
@@ -22,7 +22,7 @@
 
 				<nav
 					id="nav-menu"
-					class="bg-white absolute py-5 rounded-xl shadow-lg max-w-[250px] w-full right-4 top-full lg:static lg:block lg:max-w-full lg:rounded-none lg:shadow-none {isNavMenuOpen ? '' : 'hidden'}"
+					class="bg-bg absolute py-5 rounded-xl shadow-lg max-w-[250px] w-full right-4 top-full lg:static lg:block lg:max-w-full lg:rounded-none lg:shadow-none {isNavMenuOpen ? '' : 'hidden'}"
 				>
 					<ul class="block lg:flex">
 						<li class="group">

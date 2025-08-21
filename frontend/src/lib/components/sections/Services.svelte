@@ -1,4 +1,4 @@
-<div id="services" class="pt-36">
+<div id="services" class="pt-36 bg-bg">
         <div class="container mx-auto mb-2">
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-primary text-3xl font-bold">Services</h1>
