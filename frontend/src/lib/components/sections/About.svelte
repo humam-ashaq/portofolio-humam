@@ -1,4 +1,4 @@
-<section id="about" class="pt-36">
+<section id="about" class="pt-36 bg-bg">
     <div class="container">
         <div class="flex flex-wrap">
             <div class="w-full px-4 mb-10 lg:w-1/2">
